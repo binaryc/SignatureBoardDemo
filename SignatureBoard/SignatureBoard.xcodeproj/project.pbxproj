@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F2A09AB1A84A5BC00FE26A7 /* SignatureBoardStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A09AA1A84A5BC00FE26A7 /* SignatureBoardStateManager.m */; };
+		8F3D72EF1A846368007FC008 /* SignatureEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D72EE1A846368007FC008 /* SignatureEntities.m */; };
+		8F3D72F51A846A51007FC008 /* ListDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D72F41A846A51007FC008 /* ListDelegate.m */; };
+		8F3D72FB1A846B45007FC008 /* ListDelegate+PeopleList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D72FA1A846B45007FC008 /* ListDelegate+PeopleList.m */; };
+		8F4ABA1A1A8731AA0077E42E /* EntitiesLogicHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4ABA191A8731AA0077E42E /* EntitiesLogicHandler.m */; };
+		8F4ABA1E1A8768FF0077E42E /* PDFGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4ABA1D1A8768FF0077E42E /* PDFGenerator.m */; };
+		8F63A3311A83041C009728A7 /* UIViewController+ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F63A3301A83041C009728A7 /* UIViewController+ChildViewController.m */; };
+		8F63A3361A8356AD009728A7 /* SignatureBoardStateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F63A3351A8356AD009728A7 /* SignatureBoardStateModel.m */; };
+		8F63A3391A83580D009728A7 /* UnsiginedStateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F63A3381A83580D009728A7 /* UnsiginedStateModel.m */; };
+		8F63A33C1A835828009728A7 /* SignedStateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F63A33B1A835828009728A7 /* SignedStateModel.m */; };
+		8F63A33F1A835AB2009728A7 /* SignatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F63A33E1A835AB2009728A7 /* SignatureViewController.m */; };
+		8F63A3421A835AD2009728A7 /* SignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F63A3411A835AD2009728A7 /* SignatureView.m */; };
+		8F63A3461A8373CB009728A7 /* PeopleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F63A3451A8373CB009728A7 /* PeopleListViewController.m */; };
+		8F63A3491A837402009728A7 /* PeopleListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F63A3481A837402009728A7 /* PeopleListView.m */; };
+		8F63A3501A837D48009728A7 /* PeopleListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F63A34F1A837D48009728A7 /* PeopleListCell.m */; };
+		8F6B14BF1A885ECA00DCD7C4 /* PaintBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6B14BE1A885ECA00DCD7C4 /* PaintBrush.m */; };
+		8F6BC9901A7F3F74004FD68C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6BC98F1A7F3F74004FD68C /* main.m */; };
+		8F6BC9931A7F3F74004FD68C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6BC9921A7F3F74004FD68C /* AppDelegate.m */; };
+		8F6BC9991A7F3F74004FD68C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6BC9971A7F3F74004FD68C /* Main.storyboard */; };
+		8F6BC99B1A7F3F74004FD68C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F6BC99A1A7F3F74004FD68C /* Images.xcassets */; };
+		8F6BC99E1A7F3F74004FD68C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F6BC99C1A7F3F74004FD68C /* LaunchScreen.xib */; };
+		8F6BC9AA1A7F3F74004FD68C /* SignatureBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6BC9A91A7F3F74004FD68C /* SignatureBoardTests.m */; };
+		8F6BC9B51A7F3FAD004FD68C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6BC9B41A7F3FAD004FD68C /* MainViewController.m */; };
+		8F6BC9BC1A7F4041004FD68C /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6BC9BA1A7F4041004FD68C /* UIView+Frame.m */; };
+		8F6BC9D01A7F49E3004FD68C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6BC9CF1A7F49E3004FD68C /* CoreGraphics.framework */; };
+		8F80C23B1A8AEEE90011B889 /* PDFGeneratorOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F80C23A1A8AEEE90011B889 /* PDFGeneratorOperation.m */; };
+		8F9555221A89D9FE00DE06B8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9555211A89D9FE00DE06B8 /* QuartzCore.framework */; };
+		8F9555251A8A017400DE06B8 /* DocumentInteractionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9555241A8A017400DE06B8 /* DocumentInteractionDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F6BC9A41A7F3F74004FD68C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F6BC9821A7F3F74004FD68C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F6BC9891A7F3F74004FD68C;
+			remoteInfo = SignatureBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F2A09A91A84A5BC00FE26A7 /* SignatureBoardStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureBoardStateManager.h; sourceTree = "<group>"; };
+		8F2A09AA1A84A5BC00FE26A7 /* SignatureBoardStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureBoardStateManager.m; sourceTree = "<group>"; };
+		8F2A09AC1A84D9A800FE26A7 /* FolderPathConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FolderPathConfig.h; sourceTree = "<group>"; };
+		8F3D72ED1A846368007FC008 /* SignatureEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureEntities.h; sourceTree = "<group>"; };
+		8F3D72EE1A846368007FC008 /* SignatureEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureEntities.m; sourceTree = "<group>"; };
+		8F3D72F31A846A51007FC008 /* ListDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListDelegate.h; sourceTree = "<group>"; };
+		8F3D72F41A846A51007FC008 /* ListDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListDelegate.m; sourceTree = "<group>"; };
+		8F3D72F91A846B45007FC008 /* ListDelegate+PeopleList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ListDelegate+PeopleList.h"; sourceTree = "<group>"; };
+		8F3D72FA1A846B45007FC008 /* ListDelegate+PeopleList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ListDelegate+PeopleList.m"; sourceTree = "<group>"; };
+		8F4ABA181A8731AA0077E42E /* EntitiesLogicHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntitiesLogicHandler.h; sourceTree = "<group>"; };
+		8F4ABA191A8731AA0077E42E /* EntitiesLogicHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntitiesLogicHandler.m; sourceTree = "<group>"; };
+		8F4ABA1C1A8768FF0077E42E /* PDFGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFGenerator.h; sourceTree = "<group>"; };
+		8F4ABA1D1A8768FF0077E42E /* PDFGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFGenerator.m; sourceTree = "<group>"; };
+		8F63A32F1A83041C009728A7 /* UIViewController+ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ChildViewController.h"; sourceTree = "<group>"; };
+		8F63A3301A83041C009728A7 /* UIViewController+ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ChildViewController.m"; sourceTree = "<group>"; };
+		8F63A3341A8356AD009728A7 /* SignatureBoardStateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureBoardStateModel.h; sourceTree = "<group>"; };
+		8F63A3351A8356AD009728A7 /* SignatureBoardStateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureBoardStateModel.m; sourceTree = "<group>"; };
+		8F63A3371A83580D009728A7 /* UnsiginedStateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnsiginedStateModel.h; sourceTree = "<group>"; };
+		8F63A3381A83580D009728A7 /* UnsiginedStateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnsiginedStateModel.m; sourceTree = "<group>"; };
+		8F63A33A1A835828009728A7 /* SignedStateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignedStateModel.h; sourceTree = "<group>"; };
+		8F63A33B1A835828009728A7 /* SignedStateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignedStateModel.m; sourceTree = "<group>"; };
+		8F63A33D1A835AB2009728A7 /* SignatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureViewController.h; sourceTree = "<group>"; };
+		8F63A33E1A835AB2009728A7 /* SignatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewController.m; sourceTree = "<group>"; };
+		8F63A3401A835AD2009728A7 /* SignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureView.h; sourceTree = "<group>"; };
+		8F63A3411A835AD2009728A7 /* SignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureView.m; sourceTree = "<group>"; };
+		8F63A3441A8373CB009728A7 /* PeopleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleListViewController.h; sourceTree = "<group>"; };
+		8F63A3451A8373CB009728A7 /* PeopleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleListViewController.m; sourceTree = "<group>"; };
+		8F63A3471A837402009728A7 /* PeopleListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleListView.h; sourceTree = "<group>"; };
+		8F63A3481A837402009728A7 /* PeopleListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleListView.m; sourceTree = "<group>"; };
+		8F63A34E1A837D48009728A7 /* PeopleListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleListCell.h; sourceTree = "<group>"; };
+		8F63A34F1A837D48009728A7 /* PeopleListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleListCell.m; sourceTree = "<group>"; };
+		8F6B14BD1A885ECA00DCD7C4 /* PaintBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintBrush.h; sourceTree = "<group>"; };
+		8F6B14BE1A885ECA00DCD7C4 /* PaintBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintBrush.m; sourceTree = "<group>"; };
+		8F6BC98A1A7F3F74004FD68C /* SignatureBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignatureBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6BC98E1A7F3F74004FD68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F6BC98F1A7F3F74004FD68C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F6BC9911A7F3F74004FD68C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F6BC9921A7F3F74004FD68C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F6BC9981A7F3F74004FD68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F6BC99A1A7F3F74004FD68C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8F6BC99D1A7F3F74004FD68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8F6BC9A31A7F3F74004FD68C /* SignatureBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignatureBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6BC9A81A7F3F74004FD68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F6BC9A91A7F3F74004FD68C /* SignatureBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignatureBoardTests.m; sourceTree = "<group>"; };
+		8F6BC9B31A7F3FAD004FD68C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8F6BC9B41A7F3FAD004FD68C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8F6BC9B81A7F4041004FD68C /* CategoryHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryHeader.h; sourceTree = "<group>"; };
+		8F6BC9B91A7F4041004FD68C /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		8F6BC9BA1A7F4041004FD68C /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		8F6BC9C91A7F47EB004FD68C /* SignatureBoard-PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SignatureBoard-PrefixHeader.h"; sourceTree = "<group>"; };
+		8F6BC9CF1A7F49E3004FD68C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8F6BC9D61A7F7648004FD68C /* NameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NameConfig.h; sourceTree = "<group>"; };
+		8F80C2391A8AEEE90011B889 /* PDFGeneratorOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFGeneratorOperation.h; sourceTree = "<group>"; };
+		8F80C23A1A8AEEE90011B889 /* PDFGeneratorOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFGeneratorOperation.m; sourceTree = "<group>"; };
+		8F9555211A89D9FE00DE06B8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8F9555231A8A017400DE06B8 /* DocumentInteractionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentInteractionDelegate.h; sourceTree = "<group>"; };
+		8F9555241A8A017400DE06B8 /* DocumentInteractionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentInteractionDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F6BC9871A7F3F74004FD68C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9555221A89D9FE00DE06B8 /* QuartzCore.framework in Frameworks */,
+				8F6BC9D01A7F49E3004FD68C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6BC9A01A7F3F74004FD68C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F4ABA1B1A8768B30077E42E /* PDFManager */ = {
+			isa = PBXGroup;
+			children = (
+				8F4ABA1C1A8768FF0077E42E /* PDFGenerator.h */,
+				8F4ABA1D1A8768FF0077E42E /* PDFGenerator.m */,
+				8F80C2391A8AEEE90011B889 /* PDFGeneratorOperation.h */,
+				8F80C23A1A8AEEE90011B889 /* PDFGeneratorOperation.m */,
+			);
+			path = PDFManager;
+			sourceTree = "<group>";
+		};
+		8F63A3321A835657009728A7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8F63A34A1A83773B009728A7 /* Delegate */,
+				8F63A3431A836BD2009728A7 /* Model */,
+				8F63A3331A835678009728A7 /* Status */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8F63A3331A835678009728A7 /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				8F2A09A91A84A5BC00FE26A7 /* SignatureBoardStateManager.h */,
+				8F2A09AA1A84A5BC00FE26A7 /* SignatureBoardStateManager.m */,
+				8F63A3341A8356AD009728A7 /* SignatureBoardStateModel.h */,
+				8F63A3351A8356AD009728A7 /* SignatureBoardStateModel.m */,
+				8F63A3371A83580D009728A7 /* UnsiginedStateModel.h */,
+				8F63A3381A83580D009728A7 /* UnsiginedStateModel.m */,
+				8F63A33A1A835828009728A7 /* SignedStateModel.h */,
+				8F63A33B1A835828009728A7 /* SignedStateModel.m */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		8F63A3431A836BD2009728A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F3D72ED1A846368007FC008 /* SignatureEntities.h */,
+				8F3D72EE1A846368007FC008 /* SignatureEntities.m */,
+				8F4ABA181A8731AA0077E42E /* EntitiesLogicHandler.h */,
+				8F4ABA191A8731AA0077E42E /* EntitiesLogicHandler.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F63A34A1A83773B009728A7 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				8F3D72F31A846A51007FC008 /* ListDelegate.h */,
+				8F3D72F41A846A51007FC008 /* ListDelegate.m */,
+				8F9555231A8A017400DE06B8 /* DocumentInteractionDelegate.h */,
+				8F9555241A8A017400DE06B8 /* DocumentInteractionDelegate.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		8F6B14BC1A885E5000DCD7C4 /* PaintBrush */ = {
+			isa = PBXGroup;
+			children = (
+				8F6B14BD1A885ECA00DCD7C4 /* PaintBrush.h */,
+				8F6B14BE1A885ECA00DCD7C4 /* PaintBrush.m */,
+			);
+			path = PaintBrush;
+			sourceTree = "<group>";
+		};
+		8F6BC9811A7F3F74004FD68C = {
+			isa = PBXGroup;
+			children = (
+				8F9555211A89D9FE00DE06B8 /* QuartzCore.framework */,
+				8F6BC9CF1A7F49E3004FD68C /* CoreGraphics.framework */,
+				8F6BC98C1A7F3F74004FD68C /* SignatureBoard */,
+				8F6BC9A61A7F3F74004FD68C /* SignatureBoardTests */,
+				8F6BC98B1A7F3F74004FD68C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F6BC98B1A7F3F74004FD68C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F6BC98A1A7F3F74004FD68C /* SignatureBoard.app */,
+				8F6BC9A31A7F3F74004FD68C /* SignatureBoardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F6BC98C1A7F3F74004FD68C /* SignatureBoard */ = {
+			isa = PBXGroup;
+			children = (
+				8F6BC9D21A7F5B97004FD68C /* Signature */,
+				8F6BC9B61A7F4041004FD68C /* Resourse */,
+				8F6BC9911A7F3F74004FD68C /* AppDelegate.h */,
+				8F6BC9921A7F3F74004FD68C /* AppDelegate.m */,
+				8F6BC9B31A7F3FAD004FD68C /* MainViewController.h */,
+				8F6BC9B41A7F3FAD004FD68C /* MainViewController.m */,
+				8F6BC9971A7F3F74004FD68C /* Main.storyboard */,
+				8F6BC99A1A7F3F74004FD68C /* Images.xcassets */,
+				8F6BC99C1A7F3F74004FD68C /* LaunchScreen.xib */,
+				8F6BC98D1A7F3F74004FD68C /* Supporting Files */,
+			);
+			path = SignatureBoard;
+			sourceTree = "<group>";
+		};
+		8F6BC98D1A7F3F74004FD68C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F6BC98E1A7F3F74004FD68C /* Info.plist */,
+				8F6BC98F1A7F3F74004FD68C /* main.m */,
+				8F6BC9C91A7F47EB004FD68C /* SignatureBoard-PrefixHeader.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F6BC9A61A7F3F74004FD68C /* SignatureBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F6BC9A91A7F3F74004FD68C /* SignatureBoardTests.m */,
+				8F6BC9A71A7F3F74004FD68C /* Supporting Files */,
+			);
+			path = SignatureBoardTests;
+			sourceTree = "<group>";
+		};
+		8F6BC9A71A7F3F74004FD68C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F6BC9A81A7F3F74004FD68C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F6BC9B61A7F4041004FD68C /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				8F6BC9C41A7F42E1004FD68C /* ConfigFile */,
+				8F6BC9BD1A7F4222004FD68C /* Controls */,
+				8F6BC9B71A7F4041004FD68C /* Category */,
+				8F6BC9BB1A7F4041004FD68C /* Images */,
+			);
+			path = Resourse;
+			sourceTree = "<group>";
+		};
+		8F6BC9B71A7F4041004FD68C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8F6BC9B81A7F4041004FD68C /* CategoryHeader.h */,
+				8F6BC9B91A7F4041004FD68C /* UIView+Frame.h */,
+				8F6BC9BA1A7F4041004FD68C /* UIView+Frame.m */,
+				8F63A32F1A83041C009728A7 /* UIViewController+ChildViewController.h */,
+				8F63A3301A83041C009728A7 /* UIViewController+ChildViewController.m */,
+				8F3D72F91A846B45007FC008 /* ListDelegate+PeopleList.h */,
+				8F3D72FA1A846B45007FC008 /* ListDelegate+PeopleList.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8F6BC9BB1A7F4041004FD68C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8F6BC9BD1A7F4222004FD68C /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				8F6B14BC1A885E5000DCD7C4 /* PaintBrush */,
+				8F4ABA1B1A8768B30077E42E /* PDFManager */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		8F6BC9C41A7F42E1004FD68C /* ConfigFile */ = {
+			isa = PBXGroup;
+			children = (
+				8F6BC9D61A7F7648004FD68C /* NameConfig.h */,
+				8F2A09AC1A84D9A800FE26A7 /* FolderPathConfig.h */,
+			);
+			path = ConfigFile;
+			sourceTree = "<group>";
+		};
+		8F6BC9D21A7F5B97004FD68C /* Signature */ = {
+			isa = PBXGroup;
+			children = (
+				8F63A3321A835657009728A7 /* ViewModel */,
+				8F6BC9D31A7F5B97004FD68C /* Controllers */,
+				8F6BC9D51A7F5B97004FD68C /* Views */,
+			);
+			path = Signature;
+			sourceTree = "<group>";
+		};
+		8F6BC9D31A7F5B97004FD68C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8F63A33D1A835AB2009728A7 /* SignatureViewController.h */,
+				8F63A33E1A835AB2009728A7 /* SignatureViewController.m */,
+				8F63A3441A8373CB009728A7 /* PeopleListViewController.h */,
+				8F63A3451A8373CB009728A7 /* PeopleListViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8F6BC9D51A7F5B97004FD68C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F63A3401A835AD2009728A7 /* SignatureView.h */,
+				8F63A3411A835AD2009728A7 /* SignatureView.m */,
+				8F63A3471A837402009728A7 /* PeopleListView.h */,
+				8F63A3481A837402009728A7 /* PeopleListView.m */,
+				8F63A34E1A837D48009728A7 /* PeopleListCell.h */,
+				8F63A34F1A837D48009728A7 /* PeopleListCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F6BC9891A7F3F74004FD68C /* SignatureBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6BC9AD1A7F3F74004FD68C /* Build configuration list for PBXNativeTarget "SignatureBoard" */;
+			buildPhases = (
+				8F6BC9861A7F3F74004FD68C /* Sources */,
+				8F6BC9871A7F3F74004FD68C /* Frameworks */,
+				8F6BC9881A7F3F74004FD68C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignatureBoard;
+			productName = SignatureBoard;
+			productReference = 8F6BC98A1A7F3F74004FD68C /* SignatureBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F6BC9A21A7F3F74004FD68C /* SignatureBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6BC9B01A7F3F74004FD68C /* Build configuration list for PBXNativeTarget "SignatureBoardTests" */;
+			buildPhases = (
+				8F6BC99F1A7F3F74004FD68C /* Sources */,
+				8F6BC9A01A7F3F74004FD68C /* Frameworks */,
+				8F6BC9A11A7F3F74004FD68C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F6BC9A51A7F3F74004FD68C /* PBXTargetDependency */,
+			);
+			name = SignatureBoardTests;
+			productName = SignatureBoardTests;
+			productReference = 8F6BC9A31A7F3F74004FD68C /* SignatureBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F6BC9821A7F3F74004FD68C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = touchDream;
+				TargetAttributes = {
+					8F6BC9891A7F3F74004FD68C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					8F6BC9A21A7F3F74004FD68C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 8F6BC9891A7F3F74004FD68C;
+					};
+				};
+			};
+			buildConfigurationList = 8F6BC9851A7F3F74004FD68C /* Build configuration list for PBXProject "SignatureBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F6BC9811A7F3F74004FD68C;
+			productRefGroup = 8F6BC98B1A7F3F74004FD68C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F6BC9891A7F3F74004FD68C /* SignatureBoard */,
+				8F6BC9A21A7F3F74004FD68C /* SignatureBoardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F6BC9881A7F3F74004FD68C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6BC9991A7F3F74004FD68C /* Main.storyboard in Resources */,
+				8F6BC99E1A7F3F74004FD68C /* LaunchScreen.xib in Resources */,
+				8F6BC99B1A7F3F74004FD68C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6BC9A11A7F3F74004FD68C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F6BC9861A7F3F74004FD68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3D72F51A846A51007FC008 /* ListDelegate.m in Sources */,
+				8F63A3391A83580D009728A7 /* UnsiginedStateModel.m in Sources */,
+				8F3D72EF1A846368007FC008 /* SignatureEntities.m in Sources */,
+				8F63A33F1A835AB2009728A7 /* SignatureViewController.m in Sources */,
+				8F80C23B1A8AEEE90011B889 /* PDFGeneratorOperation.m in Sources */,
+				8F9555251A8A017400DE06B8 /* DocumentInteractionDelegate.m in Sources */,
+				8F6BC9BC1A7F4041004FD68C /* UIView+Frame.m in Sources */,
+				8F63A3501A837D48009728A7 /* PeopleListCell.m in Sources */,
+				8F63A3491A837402009728A7 /* PeopleListView.m in Sources */,
+				8F3D72FB1A846B45007FC008 /* ListDelegate+PeopleList.m in Sources */,
+				8F6BC9931A7F3F74004FD68C /* AppDelegate.m in Sources */,
+				8F63A3461A8373CB009728A7 /* PeopleListViewController.m in Sources */,
+				8F63A33C1A835828009728A7 /* SignedStateModel.m in Sources */,
+				8F63A3421A835AD2009728A7 /* SignatureView.m in Sources */,
+				8F6BC9B51A7F3FAD004FD68C /* MainViewController.m in Sources */,
+				8F63A3361A8356AD009728A7 /* SignatureBoardStateModel.m in Sources */,
+				8F2A09AB1A84A5BC00FE26A7 /* SignatureBoardStateManager.m in Sources */,
+				8F63A3311A83041C009728A7 /* UIViewController+ChildViewController.m in Sources */,
+				8F4ABA1A1A8731AA0077E42E /* EntitiesLogicHandler.m in Sources */,
+				8F6BC9901A7F3F74004FD68C /* main.m in Sources */,
+				8F4ABA1E1A8768FF0077E42E /* PDFGenerator.m in Sources */,
+				8F6B14BF1A885ECA00DCD7C4 /* PaintBrush.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6BC99F1A7F3F74004FD68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6BC9AA1A7F3F74004FD68C /* SignatureBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F6BC9A51A7F3F74004FD68C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F6BC9891A7F3F74004FD68C /* SignatureBoard */;
+			targetProxy = 8F6BC9A41A7F3F74004FD68C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F6BC9971A7F3F74004FD68C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F6BC9981A7F3F74004FD68C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F6BC99C1A7F3F74004FD68C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F6BC99D1A7F3F74004FD68C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F6BC9AB1A7F3F74004FD68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F6BC9AC1A7F3F74004FD68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F6BC9AE1A7F3F74004FD68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(EXECUTABLE_NAME)/SignatureBoard-PrefixHeader.h";
+				INFOPLIST_FILE = SignatureBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F6BC9AF1A7F3F74004FD68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(EXECUTABLE_NAME)/SignatureBoard-PrefixHeader.h";
+				INFOPLIST_FILE = SignatureBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F6BC9B11A7F3F74004FD68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SignatureBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignatureBoard.app/SignatureBoard";
+			};
+			name = Debug;
+		};
+		8F6BC9B21A7F3F74004FD68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SignatureBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignatureBoard.app/SignatureBoard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F6BC9851A7F3F74004FD68C /* Build configuration list for PBXProject "SignatureBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6BC9AB1A7F3F74004FD68C /* Debug */,
+				8F6BC9AC1A7F3F74004FD68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6BC9AD1A7F3F74004FD68C /* Build configuration list for PBXNativeTarget "SignatureBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6BC9AE1A7F3F74004FD68C /* Debug */,
+				8F6BC9AF1A7F3F74004FD68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6BC9B01A7F3F74004FD68C /* Build configuration list for PBXNativeTarget "SignatureBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6BC9B11A7F3F74004FD68C /* Debug */,
+				8F6BC9B21A7F3F74004FD68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F6BC9821A7F3F74004FD68C /* Project object */;
+}
